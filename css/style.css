@@ -1,0 +1,7 @@
+body {
+    background-color: rgba(127, 255, 212, 0.5);
+    color: rgb(158, 107, 158)
+}
+h1, div {
+    margin: 20px;
+}

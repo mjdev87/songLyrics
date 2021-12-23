@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyrics API Exercise</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>Find Song Lyrics Here!</h1>
+<div>
+    <form class="form" action="#" method="post">
+        <div>
+            <label for="artist">Artist Name</label>
+            <input class="artist" type="text" name="artist">
+        </div>
+        <div>
+            <label for="title">Song Title</label>
+            <input class="title" type="text" name="song">
+        </div>
+        <div>
+            <input class="btn" type="submit" value="Get Lyrics">
+        </div>
+    </form>
+    <div class="lyrics"></div>
+</div>
+    <!-- jQuery Tag -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/custom.js"></script>
+</body>
+</html>
